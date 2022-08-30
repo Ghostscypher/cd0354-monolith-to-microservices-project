@@ -20,4 +20,5 @@ before_install:
   - docker push ghostscypher/udagram-frontend:v1
   - docker push ghostscypher/reverseproxy:v1
 
-  
+script:
+  - echo "Done"
