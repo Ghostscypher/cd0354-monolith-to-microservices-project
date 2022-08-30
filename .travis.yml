@@ -1,0 +1,17 @@
+services:
+  - docker
+
+before_install:
+  - docker-compose build
+  - docker tag udagram-api-feed ghostcypher/udagram-api-feed:v1
+  - docker tag udagram-api-user ghostcypher/udagram-api-user:v1
+  - docker tag udagram-frontend ghostcypher/udagram-frontend:v1
+  - docker tag udagram-reverseproxy ghostcypher/reverseproxy:v1
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - docker push ghostcypher/udagram-api-feed:v1
+  - docker push ghostcypher/udagram-api-user:v1
+  - docker push ghostcypher/udagram-frontend:v1
+  - docker push ghostcypher/reverseproxy:v1
+
+script:
+  
