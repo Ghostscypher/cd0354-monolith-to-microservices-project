@@ -1,0 +1,15 @@
+apiVersion: v1
+data:
+  POSTGRES_DB: "postgres"
+  AWS_BUCKET: "arn:aws:s3:::[BUCKET_NAME]"
+  AWS_REGION: "us-east-1"
+  AWS_PROFILE: "default"
+  URL: "http://localhost:8100"
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2022-08-31T09:49:43Z"
+  name: env-config
+  namespace: default
+  resourceVersion: "123267"
+  uid: 09c6f868-c001-4e49-be64-814791875fc2
+
