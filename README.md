@@ -7,9 +7,8 @@ The project is split into two parts:
 2. Backend RESTful API - Node-Express application
 
 ## Endpoints (AWS EKS deployment)
-Frontend: afaa107fe30a04d6d95aa150e367befa-236287770.us-east-1.elb.amazonaws.com
-Backend: afaa107fe30a04d6d95aa150e367befa-236287770.us-east-1.elb.amazonaws.com
-
+* Frontend: http://afaa107fe30a04d6d95aa150e367befa-236287770.us-east-1.elb.amazonaws.com
+* Backend: http://afaa107fe30a04d6d95aa150e367befa-236287770.us-east-1.elb.amazonaws.com
 
 ## Getting Started
 > _tip_: it's recommended that you start with getting the backend API running since the frontend web application depends on the API.
