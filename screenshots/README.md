@@ -1,6 +1,10 @@
 # Screenshots
 To help review your infrastructure, please include the following screenshots in this directory::
 
+## Endpoints (AWS EKS deployment)
+* Frontend: http://afaa107fe30a04d6d95aa150e367befa-236287770.us-east-1.elb.amazonaws.com
+* Backend: http://afaa107fe30a04d6d95aa150e367befa-236287770.us-east-1.elb.amazonaws.com
+
 ## Deployment Pipeline
 * DockerHub showing containers that you have pushed
 * GitHub repository’s settings showing your Travis webhook (can be found in Settings - Webhook)
